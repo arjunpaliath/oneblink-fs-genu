@@ -1,0 +1,32 @@
+{
+  "name": "oneblink-freshservice-api",
+  "version": "1.0.0",
+  "description": "An integration to submit OneBlink forms to Freshservice",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@oneblink/sdk": "^0.18.3",
+    "axios": "^0.24.0",
+    "btoa": "^1.2.1",
+    "npm": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikeyike/oneblink-freshservice.git"
+  },
+  "keywords": [
+    "OneBlink",
+    "Freshservice",
+    "Integration",
+    "Demo"
+  ],
+  "author": "Tarik Krajina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikeyike/oneblink-freshservice/issues"
+  },
+  "homepage": "https://github.com/tikeyike/oneblink-freshservice#readme"
+}
