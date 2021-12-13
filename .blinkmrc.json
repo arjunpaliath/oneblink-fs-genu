@@ -1,0 +1,21 @@
+{
+  "server": {
+    "project": "trial1408-freshservice.api.oneblink.io",
+    "awsProfile": "prod",
+    "cors": true,
+    "memorySize": 512,
+    "routes": [
+      {
+        "route": "/send-to-freshservice",
+        "module": "./src/routes/send-to-freshservice.js"
+      }
+    ],
+    "variables": {
+      "FRESHSERVICE_ENDPOINT": "genusharedservices",
+      "FRESHSERVICE_API_KEY": "",
+      "WEB_HOOK_SECRET": "",
+      "FORMS_ACCESS_KEY": "",
+      "FORMS_SECRET_KEY": ""
+    }
+  }
+}
